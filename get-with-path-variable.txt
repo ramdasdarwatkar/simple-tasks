@@ -1,0 +1,18 @@
+We are designing new system hosted currently at http://localhost:8080
+
+User Story - 1
+ - As a system user, I want to fetch the student details by student id
+input - studentId 
+output - "Fetching Details for student with studentId 1"
+URL E.g.- http://localhost:8080/oca/student/1
+
+
+User Story - 2
+- As a system user, I want to fetch the student details by student id
+input - classId, rollNumber
+output - "Fetching Fetails for student with roll number 25 from class 1"
+URL E.g. - http://localhost:8080/oca/class/1/student/25
+
+
+Note : 	Use Get as a input method. (For Practice)
+		Take all inputs as path variable
