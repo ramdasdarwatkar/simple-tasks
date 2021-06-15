@@ -1,0 +1,29 @@
+We are designing new system hosted currently at http://localhost:8080
+
+User Story - 1
+ - As a system user, I want to access the home page details from server with username and role.
+ - Only with role "admin", user will able to access details
+ - on unauthorised role, user will get error like invalid user
+input - username,role  
+output - "My name is {username}, I am {role}."
+URL - http://localhost:8080/nca/homepage
+
+
+User Story - 2
+- As a system user, I want to register as a new user.
+input - username, password, mobile, role
+output - "User Registered successfully with details - username : { username } + mobile : {mobile} + password { password } + role : { role }"
+URL - http://localhost:8080/nca/register
+
+
+User Story - 3
+	- As a system user, I want to login into system.
+	- only able to login with username "admin" and password "Admin123"
+	- with other credentials user will get invalid credentials details
+input - username, password
+output - "{username} logged into system successfully."
+URL - http://localhost:8080/nca/signin
+
+
+Note : 	Use Get as a input method. (For Practice)
+		Take all inputs as query parameter
