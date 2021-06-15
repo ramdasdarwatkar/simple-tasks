@@ -1,0 +1,21 @@
+We are designing new system hosted currently at http://localhost:8080
+
+User Story - 1
+Create a API to fetch the home page details from server.
+input - NA
+output - "Homepage is loading..."
+URL - http://localhost:8080/mca/homepage
+
+
+User Story - 2
+Create a API to fetch the registration page details from server.
+input - NA
+output - "Welcome, Please Sign up"
+URL - http://localhost:8080/mca/register
+
+
+User Story - 3
+Create a API to fetch the login page details from server.
+input - NA
+output - "Please Sign In."
+URL - http://localhost:8080/mca/signin
